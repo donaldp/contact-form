@@ -38,6 +38,14 @@ php artisan app:install
 
 > You will get login details
 
+## Development (optional)
+
+To compile Inertia/Vuejs run the following command:
+
+```bash
+npm run prod
+```
+
 ## Redis
 
 Listen to outgoing notification:
