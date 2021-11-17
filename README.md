@@ -31,6 +31,11 @@ cp .env.example .env
 
 Set your database, redis and mail details in the `.env` file.
 
+Cache configurations:
+```bash
+php artisan config:cache
+``` 
+
 Install the application:
 ```bash
 php artisan app:install
